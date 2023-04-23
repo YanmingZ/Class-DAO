@@ -10,3 +10,6 @@ In terms of tests, we wrote two tests (containing a few sub-tests each) towards 
 
 - VotingToken: in this script we tested the initial state of the system, the administrator and the minter should be set as the contract owner in default. The minter should be able to mint tokens as well. Meanwhile, the type of the token should also be confirmed (in this case we name it as DTK, standing for Dauphine DAO).
 - GovernanceLogic: In this test we set up two test accounts, one as a proposer and the other as a non-proposer. We deployed a new GovernanceLogic contract with the voting token contract's address as the constructor argument and tested the initialization of the contract.
+- Gas test
+
+The project is deployed on the following address: 0xE7587D7b766D68D7d0256C24247705347B6DdC97
